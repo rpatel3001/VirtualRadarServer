@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <DataVersion>6</DataVersion>
+  <DataVersion>16</DataVersion>
   <BaseStationSettings>
     <ConnectionType>TCP</ConnectionType>
     <AutoReconnectAtStartup>false</AutoReconnectAtStartup>
@@ -13,6 +13,9 @@
     <Handshake>None</Handshake>
     <StartupText>#43-02\r</StartupText>
     <ShutdownText>#43-00\r</ShutdownText>
+    <DatabaseFileName>/home/rajan/VirtualRadar/BaseStation/BaseStation.sqb</DatabaseFileName>
+    <OperatorFlagsFolder>/home/rajan/VirtualRadar/BaseStation/OperatorLogosComb</OperatorFlagsFolder>
+    <SilhouettesFolder>/home/rajan/VirtualRadar/BaseStation/SilhouettesLogos</SilhouettesFolder>
     <SearchPictureSubFolders>false</SearchPictureSubFolders>
     <DisplayTimeoutSeconds>30</DisplayTimeoutSeconds>
     <TrackingTimeoutSeconds>600</TrackingTimeoutSeconds>
@@ -41,16 +44,17 @@
   </WebServerSettings>
   <GoogleMapSettings>
     <MapProvider>Leaflet</MapProvider>
-    <InitialMapLatitude>51.47</InitialMapLatitude>
-    <InitialMapLongitude>-0.6</InitialMapLongitude>
+    <InitialSettings>{"ver":1,"values":{"VRadarServer-#desktop#-vrsCurrentLocation-default":{"userSuppliedLocation":{"lat":40.25021108020228,"lng":-74.53780746538543},"useBrowserLocation":false,"showCurrentLocation":true},"VRadarServer-#desktop#-vrsMapState-default":{"zoom":9,"mapTypeId":"m","center":{"lat":40.15238263784867,"lng":-74.63259886018933},"brightnessMapName":"OpenStreetMap","brightness":0},"VRadarServer-#global#-Localise":{"locale":"en-US"},"VRadarServer-#global#-unitDisplayPreferences-vrsUnitDisplayPreferences":{"distanceUnit":"sm","heightUnit":"f","speedUnit":"ml","pressureUnit":"1","vsiPerSecond":false,"flTransitionAlt":18000,"flTransitionUnit":"f","flHeightUnit":"f","showAltType":false,"showVsiType":false,"showSpeedType":true,"showTrackType":false,"usePressureAltitude":true},"VRadarServer-#desktop#-vrsAircraftPlotterOptions-default":{"showAltitudeStalk":false,"suppressAltitudeStalkWhenZoomedOut":false,"showPinText":true,"pinTexts":["csn","alt","spd","rts","---","---"],"pinTextLines":4,"hideEmptyPinTextLines":true,"trailDisplay":"c","trailType":"d","showRangeCircles":true,"rangeCircleInterval":20,"rangeCircleDistanceUnit":"sm","rangeCircleCount":5,"rangeCircleOddColour":"#333333","rangeCircleOddWeight":1,"rangeCircleEvenColour":"#111111","rangeCircleEvenWeight":2,"onlyUsePre22Icons":false,"aircraftMarkerClustererMaxZoom":5},"VRadarServer-#desktop#-vrsSplitterPosition-default-vrsLayout-A00":{"lengths":[{"name":"S2","pane":1,"vertical":false,"length":233},{"name":"S1","pane":2,"vertical":true,"length":516}]},"VRadarServer-#desktop#-vrsAircraftListPlugin-default":{"columns":["sil","opr","mod","csr","tim","alt","spd","dis","fct"],"showUnits":true},"VRadarServer-#desktop#-vrsPolarPlotter-default":{"altitudeRangeConfigs":[{"low":-1,"high":-1,"colour":"#000000","zIndex":-5},{"low":-1,"high":9999,"colour":"#FFFFFF","zIndex":-1},{"low":10000,"high":19999,"colour":"#00FF00","zIndex":-2},{"low":20000,"high":29999,"colour":"#0000FF","zIndex":-3},{"low":30000,"high":-1,"colour":"#FF0000","zIndex":-4}],"plotsOnDisplay":[{"feedName":"RTL-SDR","low":-1,"high":-1}],"strokeOpacity":0.16,"fillOpacity":0.2}}}</InitialSettings>
+    <InitialMapLatitude>40.2506896</InitialMapLatitude>
+    <InitialMapLongitude>-74.5407127</InitialMapLongitude>
     <InitialMapType>ROADMAP</InitialMapType>
     <InitialMapZoom>11</InitialMapZoom>
     <InitialRefreshSeconds>1</InitialRefreshSeconds>
     <MinimumRefreshSeconds>1</MinimumRefreshSeconds>
     <ShortTrailLengthSeconds>30</ShortTrailLengthSeconds>
-    <InitialDistanceUnit>NauticalMiles</InitialDistanceUnit>
+    <InitialDistanceUnit>Miles</InitialDistanceUnit>
     <InitialHeightUnit>Feet</InitialHeightUnit>
-    <InitialSpeedUnit>Knots</InitialSpeedUnit>
+    <InitialSpeedUnit>MilesPerHour</InitialSpeedUnit>
     <PreferIataAirportCodes>true</PreferIataAirportCodes>
     <EnableBundling>true</EnableBundling>
     <EnableMinifying>true</EnableMinifying>
@@ -58,7 +62,7 @@
     <WebSiteReceiverId>1</WebSiteReceiverId>
     <ClosestAircraftReceiverId>1</ClosestAircraftReceiverId>
     <FlightSimulatorXReceiverId>1</FlightSimulatorXReceiverId>
-    <ProxyType>Unknown</ProxyType>
+    <ProxyType>Reverse</ProxyType>
     <EnableCorsSupport>false</EnableCorsSupport>
     <UseGoogleMapsAPIKeyWithLocalRequests>false</UseGoogleMapsAPIKeyWithLocalRequests>
     <TileServerSettingName>OpenStreetMap</TileServerSettingName>
@@ -69,16 +73,16 @@
   </VersionCheckSettings>
   <InternetClientSettings>
     <CanRunReports>false</CanRunReports>
-    <CanShowPinText>false</CanShowPinText>
+    <CanShowPinText>true</CanShowPinText>
     <CanPlayAudio>false</CanPlayAudio>
-    <CanShowPictures>false</CanShowPictures>
+    <CanShowPictures>true</CanShowPictures>
     <TimeoutMinutes>20</TimeoutMinutes>
     <AllowInternetProximityGadgets>false</AllowInternetProximityGadgets>
     <CanSubmitRoutes>false</CanSubmitRoutes>
-    <CanShowPolarPlots>false</CanShowPolarPlots>
+    <CanShowPolarPlots>true</CanShowPolarPlots>
   </InternetClientSettings>
   <AudioSettings>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <VoiceRate>0</VoiceRate>
   </AudioSettings>
   <RawDecodingSettings>
@@ -111,7 +115,7 @@
     <Receiver>
       <Enabled>true</Enabled>
       <UniqueId>1</UniqueId>
-      <Name>Receiver</Name>
+      <Name>RTL-SDR</Name>
       <DataSource>Beast</DataSource>
       <ConnectionType>TCP</ConnectionType>
       <AutoReconnectAtStartup>true</AutoReconnectAtStartup>
@@ -121,7 +125,7 @@
         <DefaultAccess>Unrestricted</DefaultAccess>
         <Addresses />
       </Access>
-      <Address></Address>
+      <Address>127.0.0.1</Address>
       <Port>31011</Port>
       <UseKeepAlive>false</UseKeepAlive>
       <IdleTimeoutMilliseconds>60000</IdleTimeoutMilliseconds>

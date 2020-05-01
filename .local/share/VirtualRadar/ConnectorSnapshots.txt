@@ -1,79 +1,616 @@
 ===============================================================================
-5/1/2020 10:48:10 AM   1 active connectors
+05/01/2020 16:25:22   1 active connectors
 
-Name:               Receiver
-Created:            5/1/2020 2:33:09 PM UTC
+Name:               RTL-SDR
+Created:            05/01/2020 20:10:20 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    179
+LastException:      05/01/2020 20:25 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 16:02:20   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1,431
+LastException:      05/01/2020 20:02 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 16:00:43   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
 Intent:             Listen to port 31011 for single connection
 Type:               NetworkConnector
 IsPassive:          True
 IsSingleConnection: True
 Closed:             False
 TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        2,725,760
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 15:47:18   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1,252
+LastException:      05/01/2020 19:47 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 15:45:40   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        2,495,245
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 15:32:17   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1,073
+LastException:      05/01/2020 19:32 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 15:30:38   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        2,219,924
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 15:17:16   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    895
+LastException:      05/01/2020 19:17 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 15:15:36   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        1,880,703
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 15:02:14   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    716
+LastException:      05/01/2020 19:02 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 15:00:33   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        1,348,762
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 14:47:11   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    537
+LastException:      05/01/2020 18:47 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 14:45:30   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        1,048,544
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 14:32:10   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    358
+LastException:      05/01/2020 18:32 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 14:30:28   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        839,904
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 14:17:09   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:02:08 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    179
+LastException:      05/01/2020 18:17 UTC Address already in use
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 14:15:26   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 18:00:22 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:54015)
+    Connected:         05/01/2020 18:00:29 UTC
+    Operations queued: 0
+    Bytes read:        467,488
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 13:58:40   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    2
+LastException:      05/01/2020 17:41 UTC interrupted
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:53736)
+    Connected:         05/01/2020 17:41:07 UTC
+    Operations queued: 0
+    Bytes read:        364,241
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 13:45:16   1 active connectors
+
+Name:               Receiver
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1,430
+LastException:      05/01/2020 17:45 UTC Connection refused
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 13:43:38   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    2
+LastException:      05/01/2020 17:41 UTC interrupted
+ConnectionStatus:   Connected
+Connections:        1
+    SOCKET (local=107.174.70.153:31011, remote=69.141.99.215:53736)
+    Connected:         05/01/2020 17:41:07 UTC
+    Operations queued: 0
+    Bytes read:        102,434
+    Bytes written:     0
+    Bytes buffered:    0
+    Bytes discarded:   0
+    Status:            Connected
+===============================================================================
+
+===============================================================================
+05/01/2020 13:30:15   1 active connectors
+
+Name:               Receiver
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1,251
+LastException:      05/01/2020 17:30 UTC Connection refused
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 13:28:30   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
 ConnectionStatus:   Waiting
 Connections:        0
 ===============================================================================
 
 ===============================================================================
-5/1/2020 10:20:21 AM   1 active connectors
+05/01/2020 13:15:13   1 active connectors
 
 Name:               Receiver
-Created:            5/1/2020 1:42:06 PM UTC
-Intent:             Establish connection with 69.141.99.215:31011
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
 Type:               NetworkConnector
 IsPassive:          False
 IsSingleConnection: True
 Closed:             False
-TotalExceptions:    67
-LastException:      5/1/2020 2:19 PM UTC The object was used after being disposed.
+TotalExceptions:    1,072
+LastException:      05/01/2020 17:15 UTC Connection refused
 ConnectionStatus:   Connecting
 Connections:        0
 ===============================================================================
 
 ===============================================================================
-5/1/2020 10:05:20 AM   1 active connectors
+05/01/2020 13:13:29   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 13:00:12   1 active connectors
 
 Name:               Receiver
-Created:            5/1/2020 1:42:06 PM UTC
-Intent:             Establish connection with 69.141.99.215:31011
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
 Type:               NetworkConnector
 IsPassive:          False
 IsSingleConnection: True
 Closed:             False
-TotalExceptions:    42
-LastException:      5/1/2020 2:05 PM UTC The object was used after being disposed.
+TotalExceptions:    893
+LastException:      05/01/2020 17:00 UTC Connection refused
 ConnectionStatus:   Connecting
 Connections:        0
 ===============================================================================
 
 ===============================================================================
-5/1/2020 9:50:19 AM   1 active connectors
+05/01/2020 12:58:28   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:45:11   1 active connectors
 
 Name:               Receiver
-Created:            5/1/2020 1:42:06 PM UTC
-Intent:             Establish connection with 69.141.99.215:31011
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
 Type:               NetworkConnector
 IsPassive:          False
 IsSingleConnection: True
 Closed:             False
-TotalExceptions:    16
-LastException:      5/1/2020 1:50 PM UTC The object was used after being disposed.
+TotalExceptions:    714
+LastException:      05/01/2020 16:45 UTC Connection refused
 ConnectionStatus:   Connecting
 Connections:        0
 ===============================================================================
 
 ===============================================================================
-5/1/2020 9:35:17 AM   1 active connectors
+05/01/2020 12:43:27   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:30:09   1 active connectors
 
 Name:               Receiver
-Created:            5/1/2020 1:20:16 PM UTC
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    535
+LastException:      05/01/2020 16:30 UTC Connection refused
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:28:24   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:15:07   1 active connectors
+
+Name:               Receiver
+Created:            05/01/2020 15:45:05 UTC
+Intent:             Establish connection with 127.0.0.1:30003
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    357
+LastException:      05/01/2020 16:15 UTC Connection refused
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:13:22   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 12:00:06   1 active connectors
+
+Name:               Receiver
+Created:            05/01/2020 15:45:05 UTC
 Intent:             Establish connection with 127.0.0.1:30003
 Type:               NetworkConnector
 IsPassive:          False
 IsSingleConnection: True
 Closed:             False
 TotalExceptions:    179
-LastException:      5/1/2020 1:35 PM UTC Connection refused
+LastException:      05/01/2020 16:00 UTC Connection refused
 ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+05/01/2020 11:58:21   1 active connectors
+
+Name:               RTL-SDR
+Created:            05/01/2020 15:46:50 UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    1
+LastException:      05/01/2020 15:48 UTC interrupted
+ConnectionStatus:   Waiting
 Connections:        0
 ===============================================================================
 
