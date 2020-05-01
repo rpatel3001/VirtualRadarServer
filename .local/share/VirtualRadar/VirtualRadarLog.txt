@@ -1,0 +1,122 @@
+[2020-05-01 13:10:41.461 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 13:10:41.464 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 13:10:41.464 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 13:10:41.465 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 13:10:41.640 UTC] [t1] Exception caught during load of standing data: Mono.Data.Sqlite.SqliteException: Unable to open the database file
+  at Mono.Data.Sqlite.SQLite3.Open (System.String strFilename, SQLiteOpenFlagsEnum flags, Int32 maxPoolSize, Boolean usePool) [0x00000] in <filename unknown>:0 
+  at Mono.Data.Sqlite.SqliteConnection.Open () [0x00000] in <filename unknown>:0 
+[2020-05-01 13:17:17.309 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 13:17:17.311 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 13:17:17.312 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 13:17:17.312 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 13:20:16.043 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 13:20:16.045 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 13:20:16.045 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 13:20:16.046 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 14:30:03.504 UTC] [t25] VirtualRadar.Interface.WebServer.RequestException: Exception {System.InvalidOperationException: Collection was modified; enumeration operation may not execute.} caught during request for {/VirtualRadar/WebAdmin/Index/GetState} - see inner exception for details
+No stack trace
+-- INNER EXCEPTION --
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[VirtualRadar.Plugin.WebAdmin.View.Main.ServerRequestModel].MoveNext () [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList (Newtonsoft.Json.JsonWriter writer, IEnumerable values, Newtonsoft.Json.Serialization.JsonArrayContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue (Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonContract valueContract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty) [0x00000] in <filename unknown>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject (Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.Serialization.JsonObjectContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract collectionContract, Newtonsoft.Json.Serialization.JsonProperty containerProperty) [0x00000] in <filename unknown>:0 
+
+[2020-05-01 14:32:22.416 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 14:32:22.420 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 14:32:22.423 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 14:32:22.424 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 14:32:23.516 UTC] [t1] Caught exception when starting web server: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddPrefixInternal (System.String p, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+[2020-05-01 14:32:45.211 UTC] [t1] Caught exception during shutdown in ShutdownWebServer: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemovePrefixInternal (System.String prefix, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemoveListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.Close (Boolean force) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.System.IDisposable.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter.ShutdownWebServer () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter+<>c__DisplayClass6_0.<ShutdownApplication>b__0 (System.String functionName, System.Action action) [0x00000] in <filename unknown>:0 
+[2020-05-01 14:33:08.790 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 14:33:08.793 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 14:33:08.793 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 14:33:08.794 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 14:54:54.710 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 14:54:54.712 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 14:54:54.713 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 14:54:54.713 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:08:49.009 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 15:08:49.011 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 15:08:49.012 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 15:08:49.012 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:23:46.898 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 15:23:46.901 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 15:23:46.901 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 15:23:46.902 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:26:16.407 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 15:26:16.409 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 15:26:16.410 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 15:26:16.410 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:29:46.357 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 15:29:46.359 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 15:29:46.360 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 15:29:46.360 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:29:47.270 UTC] [t1] Caught exception when starting web server: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddPrefixInternal (System.String p, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+[2020-05-01 15:31:59.675 UTC] [t1] Caught exception during shutdown in ShutdownWebServer: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemovePrefixInternal (System.String prefix, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemoveListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.Close (Boolean force) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.System.IDisposable.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter.ShutdownWebServer () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter+<>c__DisplayClass6_0.<ShutdownApplication>b__0 (System.String functionName, System.Action action) [0x00000] in <filename unknown>:0 
+[2020-05-01 15:32:41.317 UTC] [t1] Program started, version 2.4.4.36598, build date 12/20/2019 8:19:56 PM UTC
+[2020-05-01 15:32:41.318 UTC] [t1] Working folder /home/rajan/.local/share/VirtualRadar
+[2020-05-01 15:32:41.319 UTC] [t1] Running under Mono runtime version 3.2.8, CLR version 2.0.50727.1433
+[2020-05-01 15:32:41.319 UTC] [t1] Mono display name: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
+[2020-05-01 15:32:42.090 UTC] [t1] Caught exception when starting web server: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddPrefixInternal (System.String p, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.AddListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+[2020-05-01 15:33:53.346 UTC] [t1] Caught exception during shutdown in ShutdownWebServer: System.Net.Sockets.SocketException: Address already in use
+  at System.Net.Sockets.Socket.Bind (System.Net.EndPoint local_end) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointListener..ctor (System.Net.IPAddress addr, Int32 port, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.GetEPListener (System.String host, Int32 port, System.Net.HttpListener listener, Boolean secure) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemovePrefixInternal (System.String prefix, System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.EndPointManager.RemoveListener (System.Net.HttpListener listener) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.Close (Boolean force) [0x00000] in <filename unknown>:0 
+  at System.Net.HttpListener.System.IDisposable.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer+DefaultProvider.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.WebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at VirtualRadar.WebServer.AutoConfigWebServer.Dispose () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter.ShutdownWebServer () [0x00000] in <filename unknown>:0 
+  at VirtualRadar.Library.Presenter.ShutdownPresenter+<>c__DisplayClass6_0.<ShutdownApplication>b__0 (System.String functionName, System.Action action) [0x00000] in <filename unknown>:0 

@@ -1,0 +1,79 @@
+===============================================================================
+5/1/2020 10:48:10 AM   1 active connectors
+
+Name:               Receiver
+Created:            5/1/2020 2:33:09 PM UTC
+Intent:             Listen to port 31011 for single connection
+Type:               NetworkConnector
+IsPassive:          True
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    0
+ConnectionStatus:   Waiting
+Connections:        0
+===============================================================================
+
+===============================================================================
+5/1/2020 10:20:21 AM   1 active connectors
+
+Name:               Receiver
+Created:            5/1/2020 1:42:06 PM UTC
+Intent:             Establish connection with 69.141.99.215:31011
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    67
+LastException:      5/1/2020 2:19 PM UTC The object was used after being disposed.
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+5/1/2020 10:05:20 AM   1 active connectors
+
+Name:               Receiver
+Created:            5/1/2020 1:42:06 PM UTC
+Intent:             Establish connection with 69.141.99.215:31011
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    42
+LastException:      5/1/2020 2:05 PM UTC The object was used after being disposed.
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+5/1/2020 9:50:19 AM   1 active connectors
+
+Name:               Receiver
+Created:            5/1/2020 1:42:06 PM UTC
+Intent:             Establish connection with 69.141.99.215:31011
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    16
+LastException:      5/1/2020 1:50 PM UTC The object was used after being disposed.
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
+===============================================================================
+5/1/2020 9:35:17 AM   1 active connectors
+
+Name:               Receiver
+Created:            5/1/2020 1:20:16 PM UTC
+Intent:             Establish connection with 127.0.0.1:30003
+Type:               NetworkConnector
+IsPassive:          False
+IsSingleConnection: True
+Closed:             False
+TotalExceptions:    179
+LastException:      5/1/2020 1:35 PM UTC Connection refused
+ConnectionStatus:   Connecting
+Connections:        0
+===============================================================================
+
